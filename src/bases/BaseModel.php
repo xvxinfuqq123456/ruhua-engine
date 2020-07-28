@@ -10,20 +10,10 @@
 
 namespace ruhua\bases;
 
-use app\model\SysConfig;
 use think\Model;
 
 class  BaseModel extends Model
 {
-    protected function baseSetImgUrl ($value,$data){
-        $finalUrl = $value;
-        if($data['from'] == 1){
-            $api_url = SysConfig::where('key','api_url')->value('value');
-            $value=str_replace("\\","/",$value);
-            $finalUrl = $api_url.$value;
-        }
-        return $finalUrl;
-    }
 
     public function getCreateTimeAttr($v)
     {

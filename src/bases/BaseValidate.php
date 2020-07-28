@@ -2,7 +2,7 @@
 
 namespace ruhua\bases;
 
-use exceptions\BaseException;
+use ruhua\exceptions\BaseException;
 use think\facade\Request;
 use think\Validate;
 

@@ -2,7 +2,7 @@
 
 namespace ruhua\services;
 
-use exceptions\BaseException;
+use ruhua\exceptions\BaseException;
 use think\Exception;
 
 //策略模式工厂

@@ -8,11 +8,6 @@
 
 namespace ruhua\bases;
 
-
-use app\controller\auth\Token;
-use app\services\TokenService;
-use exceptions\BaseException;
-use think\facade\Log;
 use think\facade\Request;
 
 class BaseCommon
@@ -21,12 +16,9 @@ class BaseCommon
     {
         $ch = curl_init();
 
-        $token=(new Token())->getCloudToken();
-        $web_url=Request::rootDomain();
-        $header=array('otoken:'.$token,'url:'.$web_url);
+
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch,CURLOPT_HTTPHEADER,$header);
         curl_setopt($ch, CURLOPT_HEADER, 0);
 
         //不做证书校验,部署在linux环境下请改为true
@@ -42,7 +34,7 @@ class BaseCommon
     function curl_post($url, array $params = array())
     {
         $data_string = json_encode($params);
-        $token=(new Token())->getCloudToken();
+
 
         $web_url=Request::rootDomain();
         $ch = curl_init();
@@ -57,9 +49,6 @@ class BaseCommon
             $ch, CURLOPT_HTTPHEADER,
             array(
                 'Content-Type: application/json',
-                'token:'.$token,
-               // 'url:'.$web_url
-
             )
         );
         $data = curl_exec($ch);

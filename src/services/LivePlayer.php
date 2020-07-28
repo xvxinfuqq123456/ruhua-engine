@@ -2,7 +2,7 @@
 
 namespace ruhua\services;
 use app\services\AccessToken;
-use bases\BaseCommon;
+use ruhua\bases\BaseCommon;
 use think\Exception;
 use think\facade\Cache;
 use think\facade\Log;
