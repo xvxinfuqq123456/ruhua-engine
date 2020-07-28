@@ -6,7 +6,7 @@
  * Time: 8:49
  */
 
-namespace events\listens;
+namespace ruhua\events\listens;
 
 
 use app\model\Goods as GoodsModel;

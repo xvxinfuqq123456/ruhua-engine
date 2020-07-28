@@ -6,7 +6,7 @@
  * Time: 9:26
  */
 
-namespace bases;
+namespace ruhua\bases;
 
 
 use app\controller\auth\Token;

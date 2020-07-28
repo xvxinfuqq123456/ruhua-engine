@@ -6,7 +6,7 @@
  * Time: 9:17
  */
 
-namespace exceptions;
+namespace ruhua\exceptions;
 
 
 use think\Exception;

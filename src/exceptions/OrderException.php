@@ -6,7 +6,7 @@
  * Time: 9:43
  */
 
-namespace exceptions;
+namespace ruhua\exceptions;
 
 
 class OrderException extends BaseException

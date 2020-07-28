@@ -1,5 +1,5 @@
 <?php
-namespace events\listens;
+namespace ruhua\events\listens;
 
 use app\model\UserCoupon as UserCouponModel;
 use exceptions\OrderException;

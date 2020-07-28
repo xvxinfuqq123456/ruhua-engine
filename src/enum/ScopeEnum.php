@@ -8,7 +8,7 @@
  * Version：1.0.0
  */
 
-namespace enum;
+namespace ruhua\enum;
 
 //自定义枚举类
 class ScopeEnum

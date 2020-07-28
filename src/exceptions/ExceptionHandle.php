@@ -1,5 +1,5 @@
 <?php
-namespace exceptions;
+namespace ruhua\exceptions;
 
 use think\exception\Handle;
 use think\facade\Env;

@@ -8,7 +8,7 @@
  * Version：1.0.0
  */
 
-namespace bases;
+namespace ruhua\bases;
 
 use app\model\SysConfig;
 use think\Model;

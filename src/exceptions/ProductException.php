@@ -1,7 +1,7 @@
 <?php
 
 
-namespace exceptions;
+namespace ruhua\exceptions;
 
 
 class ProductException extends BaseException

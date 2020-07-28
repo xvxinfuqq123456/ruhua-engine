@@ -1,6 +1,6 @@
 <?php
 
-namespace services;
+namespace ruhua\services;
 use app\services\AccessToken;
 use bases\BaseCommon;
 use think\Exception;

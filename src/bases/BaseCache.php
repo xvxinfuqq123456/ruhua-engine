@@ -6,7 +6,7 @@
  * Time: 17:46
  */
 
-namespace bases;
+namespace ruhua\bases;
 
 use think\facade\Cache;
 

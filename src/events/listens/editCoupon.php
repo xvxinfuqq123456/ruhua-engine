@@ -6,7 +6,7 @@
  * Time: 8:34
  */
 
-namespace events\listens;
+namespace ruhua\events\listens;
 
 
 use app\model\UserCoupon as UserCouponModel;

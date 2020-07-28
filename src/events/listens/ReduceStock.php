@@ -6,7 +6,7 @@
  * Time: 8:43
  */
 
-namespace events\listens;
+namespace ruhua\events\listens;
 
 use app\model\Goods as GoodsModel;
 use think\facade\Log;

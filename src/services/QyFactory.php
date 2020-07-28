@@ -1,6 +1,6 @@
 <?php
 
-namespace services;
+namespace ruhua\services;
 
 use exceptions\BaseException;
 use think\Exception;

@@ -1,6 +1,6 @@
 <?php
 
-namespace interfaces;
+namespace ruhua\interfaces;
 
 Interface RoleInterface
 {

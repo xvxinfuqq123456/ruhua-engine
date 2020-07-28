@@ -6,7 +6,7 @@
  * Time: 17:06
  */
 
-namespace subscribes;
+namespace ruhua\subscribes;
 
 
 class Points

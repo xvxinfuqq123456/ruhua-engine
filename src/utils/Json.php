@@ -1,6 +1,6 @@
 <?php
 
-namespace utils;
+namespace ruhua\utils;
 
 use think\Response;
 

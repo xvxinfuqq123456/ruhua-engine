@@ -6,7 +6,7 @@
  * Time: 8:53
  */
 
-namespace subscribes;
+namespace ruhua\subscribes;
 
 
 use app\model\FxAgent as FxAgentModel;
