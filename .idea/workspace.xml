@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6afdd50f-1999-4004-9373-7534bdde11f8" name="默认" comment="" />
+    <list default="true" id="6afdd50f-1999-4004-9373-7534bdde11f8" name="默认" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/bases/BaseCache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/bases/BaseCommon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/bases/BaseController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/bases/BaseModel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/bases/BaseValidate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/enum/OrderEnum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/enum/ScopeEnum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/OrderEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/CheckCoupon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/CheckStock.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/CheckStyle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/ReduceStock.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/addPoints.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/editCoupon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/events/listens/editSales.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/exceptions/BaseException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/exceptions/ExceptionHandle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/exceptions/OrderException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/exceptions/ProductException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/exceptions/TokenException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/exceptions/UserException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/interfaces/RoleInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/job/Job1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/services/HttpService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/services/LivePlayer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/services/QyFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/subscribes/FxSubscribes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/subscribes/OrderSubscribes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/subscribes/Points.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/subscribes/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/traits/BaseTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/traits/UserTrait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/utils/Json.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruhua/utils/System.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +48,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -26,6 +63,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/composer.json" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -55,8 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -71,6 +113,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,33 +144,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595674134102</updated>
-      <workItem from="1595674135200" duration="16000" />
+      <workItem from="1595674135200" duration="1255000" />
+      <workItem from="1595903122053" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16000" />
+    <option name="totallyTimeSpent" value="1413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -145,6 +190,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bases/BaseCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bases/BaseCommon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum/OrderEnum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
